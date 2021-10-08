@@ -1,3 +1,5 @@
+/*****Base Layout / Mobile View Layout*****/
+
 * {
 	box-sizing: border-box;
 }
@@ -60,11 +62,15 @@ p {
 	clear: both;
 }
 
+/*****DeskTop View Layout*****/
+
 @media (min-width: 992px) {
 	.col-lg-4 {
 		width: 33.33%;
 	}
 }
+
+/*****Tablet View Layout*****/
 
 @media (min-width: 768px) and (max-width: 991px) {
 	.col-md-12 {
