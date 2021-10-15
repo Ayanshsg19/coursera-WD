@@ -455,4 +455,10 @@ h3.menu-item-title {
 	/*MAIN ENDS*/
 }
 
+@media (max-width: 386px) {
+	#menu-tile, #specials-tile {
+    	width: 100%;
+    	margin: 0 auto 15px;
+	}
+}
 /*MEDIA QUERIES ENDS */
