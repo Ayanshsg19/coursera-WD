@@ -1,0 +1,93 @@
+body {
+	font-size: 16px;
+	font-family: 'Comic Neue', cursive;
+}
+
+/* HEADER STARTS */
+
+#header-nav {
+	background-color: #999999;
+	padding: 0;
+	border: 3px solid #000;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+}
+
+.navbar-brand h1 {
+	color: #000;
+	font-weight: 900;
+	margin-bottom: 20px;
+	margin-left: 35px;
+	line-height: .75;
+}
+
+.navbar-brand a {
+	text-decoration: none;
+}
+
+.container button.navbar-toggler {
+	border: 2px solid #000;
+	margin-right: 35px;
+}
+
+#header-nav .navbar-toggler:focus {
+    box-shadow: 0 0 0 0;
+    border-color: #fff;
+}
+
+ #nav-list {
+ 	border-top: 2px solid #000;
+ }
+
+ #nav-list a {
+ 	color: #000;
+ 	font-weight: 600;
+ }
+
+ #nav-list hr {
+ 	opacity: 1;
+ 	width: 90%;
+ 	background-color: #000;
+ 	margin: auto;
+ 	height: 2px;
+ }
+
+/* HEADER ENDS */
+
+/* MAIN PAGE STARTS */
+
+#main-content h2 {
+	margin-top: 15px;
+	margin-bottom: 30px;
+	font-weight: 700;
+}
+
+#content-tile h3 {
+	padding-top: 5px;
+	font-weight: 600;
+}
+
+#content-tile div.content-detail {
+	background-color: #999999;
+	margin-bottom: 25px;
+	font-weight: 800;
+	padding: 0 25px 10px 25px;
+}
+
+#content-tile div.content-detail a {
+	color: #1D5A94;
+}
+
+/* MAIN PAGE ENDS */
+
+/* MEDIA QUERIES */
+
+@media (min-width: 576px) {
+	#header-nav .container {
+	    max-width: 100%;
+	}
+}
+
+/* MEDIA QUERIES ENDS */
